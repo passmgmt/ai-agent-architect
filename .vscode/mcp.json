@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "ai-agent-architect": {
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/server.py"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  }
+}
